@@ -1,0 +1,15 @@
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\MyBankAppCode.exe.config
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\MyBankAppCode.exe
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\MyBankAppCode.pdb
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.csprojResolveAssemblyReference.cache
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.Properties.Resources.resources
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.csproj.GenerateResource.Cache
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.exe
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.pdb
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.HomePage.resources
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.AdminLogin.resources
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\obj\Debug\MyBankAppCode.AdminDashboard.resources
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\EntityFramework.dll
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\EntityFramework.xml
+C:\Users\GINFOCOM\Desktop\myApp\MyBankAppCode\MyBankAppCode\bin\Debug\EntityFramework.SqlServer.xml

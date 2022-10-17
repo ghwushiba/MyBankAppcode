@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyNewBankAppModelStoreContainer" CdmEntityContainer="MyNewBankAppEntities">
+    <EntitySetMapping Name="Admin_logins">
+      <EntityTypeMapping TypeName="MyNewBankAppModel.Admin_logins">
+        <MappingFragment StoreEntitySet="Admin_logins">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
