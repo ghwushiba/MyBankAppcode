@@ -17,14 +17,15 @@ namespace MyBankAppCode
         public AdminDashboard()
         {
             InitializeComponent();
-            AdminDash();
+            renderAdminDash();
+
           
            
         }
 
        
-
-        private void AdminDash()
+  
+        private void renderAdminDash()
         {
             //Admin main side bar panel
             Panel adminSidePanel = new Panel();
@@ -75,7 +76,9 @@ namespace MyBankAppCode
             Staffbtn.Font = new Font("Microsoft Sans Serif", 12);
             Staffbtn.FlatAppearance.MouseOverBackColor = Color.Teal;
             Staffbtn.Anchor = AnchorStyles.Bottom;
+            
             adminSidePanel.Controls.Add(Staffbtn);
+           
 
             //Button for Transactions
             Button Transaction = new Button();
@@ -223,6 +226,7 @@ namespace MyBankAppCode
   
             adminSidePanel.Controls.Add(CustomerMenuPanel);
 
+
             //button View customer account
             Button ViewAcct = new Button();
             ViewAcct.Text = "View Account";
@@ -310,31 +314,31 @@ namespace MyBankAppCode
             Transfer.Font = new Font("Microsoft Sans Serif", 12);
             TransMenuPanel.Controls.Add(Transfer);
 
-            
-
-            //StaffMenuPanel.Visible = false;
-            //CustomerMenuPanel.Visible = false;
-            //TransMenuPanel.Visible = false;
-            
-            //Panel SubMenu = new Panel();
-            //if (SubMenu.Visible==false)
+            //Staffbtn.Click += (Object sender, EventArgs e) =>
             //{
+
+            //    if (StaffMenuPanel.Visible == true)
+            //        StaffMenuPanel.Visible = false;
+
+
+            //};
+
+            //StaffMenuPanel.Visible = true;
+            //CustomerMenuPanel.Visible = true;
+            //TransMenuPanel.Visible = true;
+
+
             //    if (StaffMenuPanel.Visible == true)
             //        StaffMenuPanel.Visible = false;
             //    if (CustomerMenuPanel.Visible == true)
             //        CustomerMenuPanel.Visible = false;
             //    if (TransMenuPanel.Visible == true)
             //        TransMenuPanel.Visible = false;
-            //    SubMenu.Visible = true;
-            //}
-            //else
-            //{
-            //    SubMenu.Visible = false;
-            //}
 
 
-                    
-            
+
+
+
 
             //button Deposit
             Button Deposit = new Button();
@@ -429,5 +433,6 @@ namespace MyBankAppCode
             AdminWelc.Size = new Size(288, 41);
             HeaderPanel.Controls.Add(AdminWelc); 
         }
+
     }
 }

@@ -15,12 +15,26 @@ namespace MyBankAppCode
         public AdminLogin()
         {
             InitializeComponent();
-            LoginSidePanel();
-            LoginDetails();
+            renderLoginSidePanel();
+            renderLoginDetails();
+           
            
         }
 
-        private void LoginDetails()
+        //public Label renderLabel()
+        //{
+        //    Label ErrowMsg = new Label();
+        //    ErrowMsg.Location = new Point(393, 156);
+        //    ErrowMsg.Size = new Size(0, 17);
+        //    ErrowMsg.Text = "Incorect username or password";
+        //    ErrowMsg.Font = new Font("Microsoft Sans Serif", 10);
+        //    ErrowMsg.ForeColor = Color.Red;
+        //    this.Controls.Add(ErrowMsg);
+
+        //    return ErrowMsg;
+        //}
+
+        private void renderLoginDetails()
         {
             //Username panel
             Panel UserNamePanel = new Panel();
@@ -105,6 +119,7 @@ namespace MyBankAppCode
                           }
                           else
                           {
+                              //Label Errowlbl = renderLabel();
                               MessageBox.Show("Incorect username or password");
                               txtPassword.Text = "";
                               txtUsername.Text = "";
@@ -113,11 +128,11 @@ namespace MyBankAppCode
                       }
                       else
                       {
+                          //Label get = renderLabel();
                           MessageBox.Show("Incorect Username or Password");
                           txtPassword.Text = "";
                           txtUsername.Text = "";
                       }
-
 
                   }
 
@@ -153,7 +168,7 @@ namespace MyBankAppCode
 
         }
 
-        private void LoginSidePanel()
+        private void renderLoginSidePanel()
         {
             //side bar panel
             Panel loginSidePanel = new Panel();
